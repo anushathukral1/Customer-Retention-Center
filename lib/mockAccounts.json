@@ -1,0 +1,32 @@
+[
+  {
+    "account_id": "acme",
+    "name": "Acme",
+    "domain": "acme.com",
+    "mrr": 12000,
+    "user_growth_pct": -5,
+    "last_exec_touch_days": 120,
+    "feature_adoption_score": 62,
+    "open_support_tickets": 3
+  },
+  {
+    "account_id": "globex",
+    "name": "Globex",
+    "domain": "globex.com",
+    "mrr": 25000,
+    "user_growth_pct": 12,
+    "last_exec_touch_days": 21,
+    "feature_adoption_score": 84,
+    "open_support_tickets": 0
+  },
+  {
+    "account_id": "initech",
+    "name": "Initech",
+    "domain": "initech.com",
+    "mrr": 8000,
+    "user_growth_pct": -12,
+    "last_exec_touch_days": 180,
+    "feature_adoption_score": 48,
+    "open_support_tickets": 6
+  }
+]
