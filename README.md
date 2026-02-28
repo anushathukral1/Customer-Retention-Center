@@ -32,7 +32,7 @@ The agent will:
 2. Estimate renewal probability
 3. Recommend prioritized retention actions
 
---
+---
 
 ## Architecture (high level)
 
@@ -61,6 +61,6 @@ lib/tools.ts
 lib/mockAccounts.json
 - Sample account health metrics used for demos
 
---
+---
 
 Note: In a production setting, these metrics would be pulled from systems like CRM (Salesforce/Gainsight), product analytics (Amplitude/Mixpanel), and support (Zendesk/Intercom). This prototype uses mock data to demonstrate the workflow.
