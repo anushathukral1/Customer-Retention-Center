@@ -8,6 +8,8 @@ A small Next.js app that spins up a **real-time Tavus Conversational Video Inter
 - Forecasts renewal probability + highlights risk drivers
 - Generates a clear, executive-style retention action plan
 
+---
+
 ## Quick start
 
 ### 1) Set environment variables
