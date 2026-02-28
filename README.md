@@ -14,7 +14,9 @@ A small Next.js app that spins up a **real-time Tavus Conversational Video Inter
 Create a `.env.local` file in the project root:
 
 TAVUS_API_KEY=your_api_key_here
+
 TAVUS_REPLICA_ID=your_replica_id_here
+
 TAVUS_PERSONA_ID=your_persona_id_here
 
 ### 2) Install and run
@@ -30,6 +32,7 @@ The agent will:
 2. Estimate renewal probability
 3. Recommend prioritized retention actions
 
+--
 
 ## Architecture (high level)
 
@@ -57,5 +60,7 @@ lib/tools.ts
 
 lib/mockAccounts.json
 - Sample account health metrics used for demos
+
+--
 
 Note: In a production setting, these metrics would be pulled from systems like CRM (Salesforce/Gainsight), product analytics (Amplitude/Mixpanel), and support (Zendesk/Intercom). This prototype uses mock data to demonstrate the workflow.
